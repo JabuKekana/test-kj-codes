@@ -1,0 +1,119 @@
+/* For desktop */
+@media screen and (min-width: 1280px) {
+  .offers h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    margin-bottom: 50px;
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+  }
+
+  .column {
+    height: 250px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+  }
+
+  .column img {
+    width: 40px;
+    margin-bottom: 30px;
+  }
+  .column h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 30px;
+  }
+}
+
+
+/* For mobile */
+@media screen and (max-width: 767px) {
+  .offers h1 {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+
+  .column {
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .column img {
+    margin-bottom: 15px;
+  }
+}
+
+/* For iPad mini */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .offers h1 {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+
+  .column {
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .column img {
+    margin-bottom: 15px;
+  }
+}
+
+/* For iPad */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .offers h1 {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+
+  .column {
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .column img {
+    margin-bottom: 15px;
+  }
+}
+
+
+
